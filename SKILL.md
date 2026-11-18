@@ -6,6 +6,11 @@ name: ks-koc
 description: "快手达人筛选数据源（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.2
+display_name: "快手达人筛选｜博主查找·粉丝画像·作品数据·互动率"
+display_name_en: "Kuaishou KOC Finder"
+description_zh: "快手达人筛选数据源（只读）：关键词搜视频、博主查找与作品列表、粉丝数据与画像、视频评论舆情；支持排序、时间和时长筛选，全部以结构化 JSON 输出供 AI 直接评估达人。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 30/50/60，超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于达人筛选、粉丝画像、KOL/KOC 真实互动率评估（点赞/评论/收藏）、博主查找与爆款选题挖掘。"
+description_en: "Read-only Kuaishou KOC/creator-sourcing data source: keyword video search, creator lookup with video lists, follower data and profiling, and comment sentiment mining. Supports sorting plus time-window and duration filters; all results are structured JSON ready for direct creator evaluation. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/creator-videos/comments at 30/50/60, returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for KOC/creator sourcing, follower profiling, KOL/KOC engagement-rate vetting (likes/comments/collects), creator lookup, and breakout topic mining."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
